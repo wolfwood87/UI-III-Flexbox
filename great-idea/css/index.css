@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header{
+	height: 8%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.top-section{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 77%;
+}
+body nav a{
+	color: lightgrey;
+    text-decoration: none;
+	font-size: 2vw;
+	width: 100%;
+	margin: 2vw;
+ }
+.logo{
+    height: 3.5vw;
+	width: 12vw;
+}
+
+h1{
+    font-size: 7vw;
+	text-align: center;
+}
+#button{
+    display: block;
+    text-decoration: none;
+    color: rgb(58, 56, 56);
+	height: 3.5vw;
+	width: 18vw;
+    font-size: 2vw;
+    text-align: center;
+    line-height: normal;
+	border: 1px solid black;
+	align-self: center;
+}
+#button:hover{
+    color: white;
+    background: rgb(58, 56, 56);
+}
+.enter{
+	display: flex;
+	flex-direction: column;
+}
+.circle{
+	width: 33%;
+	vertical-align: middle;
+ }
+ .middle-section{
+    height: 53vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+ }
+ .section1{
+	 display: flex;
+ }
+ .feat{
+    margin-top: 1vw;
+    font-size: 1.83vw;
+    padding: 1vw;
+    word-wrap: break-word;
+    vertical-align: middle;
+ }
+ .abo{
+    margin-top: 1vw;
+    display: inline-block;
+    font-size: 1.83vw;
+    padding: 1vw;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+.section3{
+	display: flex;
+}
+.serve{
+    word-wrap: break-word;
+    padding: 1vw;
+    font-size: 1.83vw;
+}
+.prod{
+    word-wrap: break-word;
+    padding: 1vw;
+    font-size: 1.83vw;
+}
+.vis{
+    word-wrap: break-word;
+    padding: 1vw;
+    font-size: 1.83vw;
+}
+.middle-img{
+    margin-top: 2vw;
+    width: 100vw;
+    height: 16vw;
+    margin-bottom: 2vw;
+}
+.bottom-section{
+    margin-top: 7vw;
+    height: 20vw;
+    font-size: 2vw;
+    padding: 1vw;
+}
+.space{
+    line-height: 300%;
+}
+
+footer{
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.serve-top{
+	display: flex;
+	height: 25vw;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 5vw;
+	font-size: 1.75vw;
+}
+.service{
+	padding: 1vw;
+}
+.serve-middle{
+	height: 80vw;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+	flex-wrap: wrap;
+	margin-bottom: 4vw;
+	font-size: 1.70vw;
+}
+.serve-middle .box_middle{
+	height: 23vw;
+	width: 45vw;
+	background: rgb(231, 229, 229);
+	display: flex;
+	padding-left: 1vw;
+	padding-right: 1.25vw;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+}
+.serve-button{
+	height: 3.5vw;
+	width: 15vw;
+	border: 1px solid black;
+	text-decoration: none;
+	text-align: center;
+	padding: .75vw;
+	color: black;
+}
+.serve-bottom{
+	display: flex;
+	justify-content: space-around;
+	height: 30vw;
+	margin-bottom: 5vw;
+}
+.serve-fact{
+	display: flex;
+	width: 40vw;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-size: 1.75vw;
+}
+.serve-bottom img{
+	width: 40%;
+}
